@@ -1,0 +1,78 @@
+/* Keyframes for background color animation */
+@keyframes changeBackgroundColor {
+    0% { background-color: hsl(274, 20%, 54%); } /* Start color (purple) */
+    50% { background-color: #26103c; } /* Mid color (darker purple) */
+    100% { background-color: #45275e; } /* End color (purple) */
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #45275e; /* Initial background color (purple) */
+    padding: 20px;
+    box-sizing: border-box;
+    animation: changeBackgroundColor 5s infinite; /* Use keyframes animation */
+}
+
+nav {
+    background-color: #26103c;
+    overflow: hidden;
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: inline-block; 
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #6a4aad;
+    color: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+p {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+.instructions {
+    text-align: center;
+    color: #e60e0e;
+    font-style: italic;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.aboutUs {
+    font-size: 14px;
+    color: #666;
+}
+
+#headerContent {
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+}
